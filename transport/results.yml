@@ -5,43 +5,42 @@
 #   Problem Information
 # ----------------------------------------------------------
 Problem: 
-- Name: unknown
-  Lower bound: 153.675
+- Lower bound: -inf
   Upper bound: 153.675
   Number of objectives: 1
-  Number of constraints: 6
-  Number of variables: 7
-  Number of nonzeros: 13
-  Sense: minimize
+  Number of constraints: 0
+  Number of variables: 6
+  Sense: unknown
 # ----------------------------------------------------------
 #   Solver Information
 # ----------------------------------------------------------
 Solver: 
 - Status: ok
+  Message: optimal solution found
   Termination condition: optimal
-  Statistics: 
-    Branch and bound: 
-      Number of bounded subproblems: 0
-      Number of created subproblems: 0
+  Id: 0
   Error rc: 0
-  Time: 0.008376121521
+  Time: 0.0
+  Gap: 0.0
+  Primal bound: 153.675
+  Dual bound: 153.675
 # ----------------------------------------------------------
 #   Solution Information
 # ----------------------------------------------------------
 Solution: 
 - number of solutions: 1
   number of solutions displayed: 1
-- Gap: 0.0
-  Status: feasible
-  Message: None
+- Gap: None
+  Status: optimal
+  Message: optimal solution found
   Objective:
     objective:
       Value: 153.675
   Variable:
-    x[seattle,chicago]:
-      Value: 300
-    x[san-diego,topeka]:
-      Value: 275
     x[san-diego,new-york]:
       Value: 325
+    x[san-diego,topeka]:
+      Value: 275
+    x[seattle,chicago]:
+      Value: 300
   Constraint: No values
