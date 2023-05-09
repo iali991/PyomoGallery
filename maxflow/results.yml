@@ -24,7 +24,7 @@ Solver:
       Number of bounded subproblems: 0
       Number of created subproblems: 0
   Error rc: 0
-  Time: 0.00943398475647
+  Time: 0.05793881416320801
 # ----------------------------------------------------------
 #   Solution Information
 # ----------------------------------------------------------
@@ -38,26 +38,24 @@ Solution:
     total:
       Value: 14
   Variable:
-    f[C,E]:
-      Value: 4
-    f[C,D]:
-      Value: 2
-    f[Zoo,A]:
-      Value: 7
     f[A,C]:
       Value: 3
-    f[E,Home]:
-      Value: 6
-    f[B,A]:
-      Value: 4
-    f[D,Home]:
-      Value: 8
-    f[D,E]:
-      Value: 2
-    f[B,C]:
-      Value: 3
-    f[Zoo,B]:
-      Value: 7
     f[A,D]:
       Value: 8
+    f[B,C]:
+      Value: 3
+    f[C,D]:
+      Value: 2
+    f[C,E]:
+      Value: 4
+    f[D,E]:
+      Value: 2
+    f[D,Home]:
+      Value: 8
+    f[E,Home]:
+      Value: 6
+    f[Zoo,A]:
+      Value: 11
+    f[Zoo,B]:
+      Value: 3
   Constraint: No values

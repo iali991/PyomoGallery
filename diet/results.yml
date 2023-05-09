@@ -24,10 +24,12 @@ Solver:
   Return code: 0
   Message: Model was solved to optimality (subject to tolerances), and an optimal solution is available.
   Termination condition: optimal
-  Termination message: Model was solved to optimality (subject to tolerances), and an optimal solution is available.
-  Wall time: 0.10500001907348633
+  Statistics: 
+    Branch and bound: 
+      Number of bounded subproblems: 89
+      Number of created subproblems: 89
   Error rc: 0
-  Time: 0.6929993629455566
+  Time: 0.00977396965027
 # ----------------------------------------------------------
 #   Solution Information
 # ----------------------------------------------------------
