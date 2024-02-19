@@ -9,9 +9,9 @@ Problem:
   Lower bound: 15.05
   Upper bound: 15.05
   Number of objectives: 1
-  Number of constraints: 10
-  Number of variables: 10
-  Number of nonzeros: 77
+  Number of constraints: 9
+  Number of variables: 9
+  Number of nonzeros: 76
   Sense: minimize
 # ----------------------------------------------------------
 #   Solver Information
@@ -21,10 +21,10 @@ Solver:
   Termination condition: optimal
   Statistics: 
     Branch and bound: 
-      Number of bounded subproblems: 89
-      Number of created subproblems: 89
+      Number of bounded subproblems: 23
+      Number of created subproblems: 23
   Error rc: 0
-  Time: 0.00977396965027
+  Time: 0.028935670852661133
 # ----------------------------------------------------------
 #   Solution Information
 # ----------------------------------------------------------
@@ -40,10 +40,10 @@ Solution:
   Variable:
     x[Cheeseburger]:
       Value: 4
-    x[Fries]:
-      Value: 5
     x[Fish Sandwich]:
       Value: 1
+    x[Fries]:
+      Value: 5
     x[Lowfat Milk]:
       Value: 4
   Constraint: No values
