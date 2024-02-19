@@ -5,19 +5,30 @@
 #   Problem Information
 # ----------------------------------------------------------
 Problem: 
-- Name: unknown
+- Name: x10
   Lower bound: 15.05
   Upper bound: 15.05
   Number of objectives: 1
+<<<<<<< HEAD
   Number of constraints: 9
   Number of variables: 9
   Number of nonzeros: 76
+=======
+  Number of constraints: 10
+  Number of variables: 10
+  Number of binary variables: 0
+  Number of integer variables: 9
+  Number of continuous variables: 1
+  Number of nonzeros: 77
+>>>>>>> d743cb262a30c4606c84d0a67776d50b95ee44db
   Sense: minimize
 # ----------------------------------------------------------
 #   Solver Information
 # ----------------------------------------------------------
 Solver: 
 - Status: ok
+  Return code: 0
+  Message: Model was solved to optimality (subject to tolerances), and an optimal solution is available.
   Termination condition: optimal
   Statistics: 
     Branch and bound: 
@@ -33,7 +44,7 @@ Solution:
   number of solutions displayed: 1
 - Gap: 0.0
   Status: optimal
-  Message: None
+  Message: Model was solved to optimality (subject to tolerances), and an optimal solution is available.
   Objective:
     cost:
       Value: 15.05
